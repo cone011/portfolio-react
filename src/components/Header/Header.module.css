@@ -1,0 +1,25 @@
+.Header {
+  width: 100%;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #3e497a;
+}
+
+.About {
+  width: 100%;
+  height: calc(100vh - 100px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #031133;
+  color: white;
+}
+
+.About h2 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 75px;
+  color: white;
+  height: 50px;
+}
