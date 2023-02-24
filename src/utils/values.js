@@ -61,3 +61,8 @@ export const EXPERIENCE_LIST = [
     isStart: true,
   },
 ];
+
+export const LIST_PROJECTS = [
+  { name: "Portfolio React", image: "ROUTE", skills: "React JS, CSS, HTML" },
+  { name: "Gym Website", image: "route" },
+];
