@@ -3,10 +3,11 @@ import { COLOR_LINE, EXPERIENCE_LIST } from "../../../utils/values";
 import ExperienceItem from "../ExperienceItem/ExperienceItem";
 import { VerticalTimeline } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
+import classes from "./ListExperience.module.css";
 
 const ListExperience = () => {
   return (
-    <div className="experience">
+    <div className={classes.backColor}>
       <VerticalTimeline lineColor={COLOR_LINE}>
         {EXPERIENCE_LIST.map((item) => (
           <ExperienceItem

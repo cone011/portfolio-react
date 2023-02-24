@@ -17,7 +17,7 @@ const Navbar = () => {
   return (
     <div
       className={classes.Navbar}
-      id={canExpandBar ? classes["open"] : classes["close"]}
+      id={canExpandBar ? classes.open : classes.close}
     >
       <div className={classes.ToggleButton}>
         <button onClick={onChangeExpandBar}>

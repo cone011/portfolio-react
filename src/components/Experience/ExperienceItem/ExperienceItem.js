@@ -47,7 +47,10 @@ const ExperienceItem = (props) => {
         date={datePoint}
         iconStyle={{ background: iconStyle.background, color: iconStyle.color }}
         contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
-        contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+        contentStyle={{
+          background: "rgb(33, 150, 243)",
+          color: "rgb(0, 0, 0)",
+        }}
         icon={icon === "SCHOOL" ? <School /> : <Work />}
       >
         <h3 className={EXPERIENCE_TITLE}>{titleExperience}</h3>
