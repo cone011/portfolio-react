@@ -1,5 +1,5 @@
 export const DEFAULT_VALUE_INITIAL = [
-  "Hello nice to meet you!",
+  "Hello nice to meet you, I'm Juan",
   "Welcome to my Portfolio",
 ];
 
