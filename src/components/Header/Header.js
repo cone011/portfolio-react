@@ -1,3 +1,4 @@
+import { Email, GitHub, LinkedIn } from "@mui/icons-material";
 import { Fragment } from "react";
 import { Typewriter } from "react-simple-typewriter";
 import { DEFAULT_VALUE_INITIAL } from "../../utils/values";
@@ -21,6 +22,15 @@ const Header = () => {
               />
             </span>
           </h2>
+          <div className={classes.Prompt}>
+            <p>
+              A developer who has the passion for learing, teaching and creating
+              new solutions
+            </p>
+            <LinkedIn />
+            <Email />
+            <GitHub />
+          </div>
         </div>
       </div>
     </Fragment>

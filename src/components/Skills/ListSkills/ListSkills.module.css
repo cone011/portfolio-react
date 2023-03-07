@@ -1,0 +1,17 @@
+.ListSkills {
+  font-size: 35px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ListSkills h1 {
+  color: #3e497a;
+}
+
+.List {
+  list-style: none;
+  width: 60%;
+}
