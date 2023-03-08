@@ -1,4 +1,5 @@
 import pokemonApp from "../assets/pokemonApp.jpg";
+import leetCode from "../assets/leetCodeChangelles.jpg";
 export const projectList = [
   {
     name: "Pokemon App",
@@ -7,7 +8,7 @@ export const projectList = [
   },
   {
     name: "Leetcode Chanllenges",
-    image: Proj1,
+    image: leetCode,
     skills: "JavaScript, Data Structures",
   },
   {
