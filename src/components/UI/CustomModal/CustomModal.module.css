@@ -1,0 +1,16 @@
+.Message {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin: 1rem 0;
+}
+
+.Actions {
+  text-align: right;
+}
+
+.Actions button {
+  font: inherit;
+}
