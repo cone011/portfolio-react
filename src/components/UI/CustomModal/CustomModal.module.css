@@ -13,4 +13,25 @@
 
 .Actions button {
   font: inherit;
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid #8a2b06;
+  padding: 0.5rem 2rem;
+  border-radius: 25px;
+  margin-left: 1rem;
+}
+
+.Actions button:hover .Actions button:active {
+  background-color: #5a1a01;
+  background-color: #5a1a01;
+  color: white;
+}
+
+.Actions .button--close {
+  color: #8a2b06;
+}
+
+.Actions .Button {
+  background-color: #8a2b06;
+  color: white;
 }
