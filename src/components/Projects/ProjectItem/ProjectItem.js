@@ -1,7 +1,7 @@
 import classes from "./ProjectItem.module.css";
 
 const ProjectItem = (props) => {
-  const { name, imgUrl } = props;
+  const { name, imgUrl, id } = props;
   return (
     <div className={classes.projectItem}>
       <div

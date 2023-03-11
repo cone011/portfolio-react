@@ -1,4 +1,4 @@
-.ListProject {
+.Projects {
   width: 100%;
   height: auto;
   display: flex;
@@ -19,4 +19,22 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   place-items: center;
+}
+
+@media only screen and (max-width: 1300px) {
+  .ListProject {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .ListProject {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .ListProject {
+    width: 100%;
+  }
 }

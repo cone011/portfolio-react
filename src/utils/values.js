@@ -3,6 +3,12 @@ export const DEFAULT_VALUE_INITIAL = [
   "Welcome to my Portfolio",
 ];
 
+export const defaultTodoReduceValues = {
+  isShow: false,
+  projectObject: null,
+  typeModa: null,
+};
+
 export const EXPERIENCE_TITLE = "vertical-timeline-element-title";
 
 export const EXPERIENCE_SUBTITLE = "vertical-timeline-element-subtitle";
