@@ -6,7 +6,7 @@ export const DEFAULT_VALUE_INITIAL = [
 export const defaultTodoReduceValues = {
   isShow: false,
   projectObject: null,
-  typeModa: null,
+  typeModal: null,
 };
 
 export const EXPERIENCE_TITLE = "vertical-timeline-element-title";
