@@ -19,13 +19,13 @@ const todoReducer = (curTodo, action) => {
 };
 
 const ProjectItem = (props) => {
-  const { name, imgUrl, id } = props;
+  const { name, imgUrl, id, skills } = props;
   const [todo, dispatchTodo] = useReducer(todoReducer, defaultTodoReduceValues);
 
   const onOpenDetail = () => {
     dispatchTodo({
       type: "SET_DETAIL",
-      projectObject: { name: name, imgUrl: imgUrl },
+      projectObject: { name: name, imgUrl: imgUrl, skills: skills },
       typeModal: "PROJECT",
     });
   };
@@ -42,7 +42,9 @@ const ProjectItem = (props) => {
           className={classes.bgImage}
         />
         <h1>{name}</h1>
-        <button onClick={onOpenDetail}>View Details</button>
+        <button onClick={onOpenDetail} className="btn">
+          View Details
+        </button>
       </div>
       {todo.isShow && (
         <CustomModal
