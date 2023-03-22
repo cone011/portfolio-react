@@ -4,7 +4,7 @@ export const projectList = [
   {
     name: "Pokemon App",
     image: pokemonApp,
-    skills: "React JS, CSS",
+    skills: "React JS, CSS, HTML",
   },
   {
     name: "Leetcode Chanllenges",
@@ -14,6 +14,11 @@ export const projectList = [
   {
     name: "Portfolio React",
     image: leetCode,
-    skills: "React Js, CSS",
+    skills: "React JS, CSS, HTML",
+  },
+  {
+    name: "Fake Commerce",
+    image: pokemonApp,
+    skills: "React JS, CSS, HTML, Node JS, Express JS, Mongo DB",
   },
 ];

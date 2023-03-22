@@ -36,7 +36,7 @@ const ProjectItem = (props) => {
 
   return (
     <Fragment>
-      <div className={classes.projectItem}>
+      <div className={classes.projectItem} key={id}>
         <div
           style={{ backgroundImage: `url(${imgUrl})` }}
           className={classes.bgImage}
