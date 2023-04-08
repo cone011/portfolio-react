@@ -1,17 +1,34 @@
-.ListSkills {
-  font-size: 35px;
-  width: 100%;
+.listSkills {
+  background-color: #d3faf540;
   display: flex;
-  justify-content: center;
-  flex-direction: column;
   align-items: center;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.ListSkills h1 {
-  color: #3e497a;
+.containerText {
+  margin: 0;
 }
 
-.List {
-  list-style: none;
-  width: 60%;
+.title {
+  padding-left: 20px;
+  font-size: 2em;
+}
+
+.containerSkills {
+  display: flex;
+  width: 80%;
+  padding: 30px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .containerText {
+    margin: 0 31px;
+  }
+  .title {
+    text-align: center;
+    padding-left: 0;
+  }
 }
