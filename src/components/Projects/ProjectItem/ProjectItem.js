@@ -19,7 +19,7 @@ const todoReducer = (curTodo, action) => {
 };
 
 const ProjectItem = (props) => {
-  const { name, imgUrl, id, skills } = props;
+  const { name, imgUrl, projectId, skills } = props;
   const [todo, dispatchTodo] = useReducer(todoReducer, defaultTodoReduceValues);
 
   const onOpenDetail = () => {
@@ -36,15 +36,16 @@ const ProjectItem = (props) => {
 
   return (
     <Fragment>
-      <div className={classes.projectItem} key={id}>
+      <div
+        className={classes.projectItem}
+        key={projectId}
+        onClick={onOpenDetail}
+      >
         <div
           style={{ backgroundImage: `url(${imgUrl})` }}
           className={classes.bgImage}
         />
         <h1>{name}</h1>
-        <button onClick={onOpenDetail} className="btn">
-          View Details
-        </button>
       </div>
       {todo.isShow && (
         <CustomModal

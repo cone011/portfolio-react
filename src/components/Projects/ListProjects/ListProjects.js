@@ -8,11 +8,12 @@ const ListProjects = (props) => {
     <div className={classes.Projects}>
       <h1>My Personal Projects</h1>
       <div className={classes.ListProject}>
-        {listProjects.map((item, index) => (
+        {listProjects.map((item) => (
           <ProjectItem
+            key={item.projectId}
             name={item.name}
             imgUrl={item.image}
-            id={index}
+            id={item.projectId}
             skills={item.skills}
           />
         ))}
